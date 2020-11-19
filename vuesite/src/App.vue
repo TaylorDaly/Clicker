@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Clickable/>
+    <Clickable />
   </div>
 </template>
 
 <script>
-import Clickable from './components/Clickable.vue'
+import Clickable from "./components/Clickable.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Clickable
-  }
-}
+    Clickable,
+  },
+};
 </script>
 
 <style>
