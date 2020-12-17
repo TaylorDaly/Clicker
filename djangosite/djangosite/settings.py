@@ -69,6 +69,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'djangosite.wsgi.application'
+ASGI_APPLICATION = 'djangosite.asgi.application'
 
 
 # Database
