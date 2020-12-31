@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Clickable />
+    <Chat />
   </div>
 </template>
 
 <script>
 import Clickable from "./components/Clickable.vue";
+import Chat from './components/Chat.vue'
 
 export default {
   name: "App",
   components: {
     Clickable,
+    Chat
   },
 };
 </script>
